@@ -237,13 +237,13 @@ const TermsOfUse = () => {
                   </p>
                   <ul className="list-none pl-6 space-y-2 text-muted-foreground">
                     <li><strong className="text-foreground">2.2.1.</strong> Keep your password confidential;</li>
-                    <li><strong className="text-foreground">2.2.2.</strong> Notify us in writing immediately if you become aware of any disclosure of your password;</li>
-                    <li><strong className="text-foreground">2.2.3.</strong> Be responsible for any activity on our marketplace arising out of any failure to keep your password confidential, and you may be held liable for any losses arising out of such a failure;</li>
-                    <li><strong className="text-foreground">2.2.4.</strong> Use your account exclusively, and you shall not transfer your account to any third party. If you authorize any third party to manage your account on your behalf, this shall be at your own risk;</li>
-                    <li><strong className="text-foreground">2.2.5.</strong> We may suspend or cancel your account and/or edit your account details at any time in our sole discretion and without notice or explanation, provided that if we cancel any products or services you have paid for but not received and you have not breached these general terms and conditions, we will refund you in respect of the same.</li>
+                    <li><strong className="text-foreground">2.2.2.</strong> Notify us in writing immediately (using our contact details provided at section 26) if you become aware of any disclosure of your password; and</li>
+                    <li><strong className="text-foreground">2.2.3.</strong>be responsible for any activity on our marketplace arising out of any failure to keep your password confidential and that you may be held liable for any losses arising out of such a failure.</li>
+                    <li><strong className="text-foreground">2.2.4.</strong>  Your account shall be used exclusively by you and you shall not transfer your account to any third party. If you authorize any third party to manage your account on your behalf this shall be at your own risk.</li>
+                    <li><strong className="text-foreground">2.2.5.</strong>  We may suspend or cancel your account and/or edit your account details at any time in our sole discretion and without notice or explanation providing that if we cancel any products or services you have paid for but not received and you have not breached these general terms and conditions we will refund you in respect of the same.</li>
                   </ul>
                   <p className="text-muted-foreground">
-                    You may cancel your account on our marketplace by contacting us.
+                    You may cancel your account on our marketplace by contacting us
                   </p>
                 </div>
               </section>
