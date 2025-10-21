@@ -4,11 +4,11 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
-import { 
-  FileText, 
-  ChevronRight, 
-  Download, 
-  Clock, 
+import {
+  FileText,
+  ChevronRight,
+  Download,
+  Clock,
   Shield,
   Users,
   CreditCard,
@@ -94,7 +94,7 @@ const TermsOfUse = () => {
     <div className="min-h-screen bg-background">
       {/* Progress Bar */}
       <div className="fixed top-0 left-0 right-0 h-1 bg-muted z-50">
-        <div 
+        <div
           className="h-full bg-primary transition-all duration-150"
           style={{ width: `${scrollProgress}%` }}
         />
@@ -142,11 +142,10 @@ const TermsOfUse = () => {
                         <button
                           key={section.id}
                           onClick={() => scrollToSection(section.id)}
-                          className={`flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm transition-all ${
-                            activeSection === section.id
-                              ? "bg-primary text-primary-foreground shadow-sm"
-                              : "text-muted-foreground hover:bg-secondary hover:text-foreground"
-                          }`}
+                          className={`flex w-full items-center gap-2 rounded-md px-3 py-2 text-sm transition-all ${activeSection === section.id
+                            ? "bg-primary text-primary-foreground shadow-sm"
+                            : "text-muted-foreground hover:bg-secondary hover:text-foreground"
+                            }`}
                         >
                           <Icon className="h-3.5 w-3.5 flex-shrink-0" />
                           <span className="text-left flex-1">{section.title}</span>
@@ -173,7 +172,7 @@ const TermsOfUse = () => {
                   <div className="flex-1">
                     <h2 className="text-xl font-semibold mb-2">Important Notice</h2>
                     <p className="text-sm text-muted-foreground">
-                      Please read these terms and conditions carefully before using our marketplace. By using our platform, 
+                      Please read these terms and conditions carefully before using our marketplace. By using our platform,
                       you acknowledge that you have read, understood, and agree to be bound by these terms.
                     </p>
                   </div>
@@ -190,21 +189,31 @@ const TermsOfUse = () => {
                 </div>
                 <div className="space-y-4 text-sm leading-relaxed">
                   <p className="text-muted-foreground">
-                    <strong className="text-foreground">1.1.</strong> "Our Platform" is the trading name for our group of companies operating an e-commerce platform consisting of a website and mobile application ("marketplace") together with supporting IT, logistics, and payment infrastructure for the sale and purchase of consumer products and services ("products") in our allocated territories.
+                    <strong className="text-foreground">1.1.</strong> “Jumia” is the trading name for the Jumia group companies listed at Appendix 1. Each Jumia group company (“Jumia” or “we”) operates an e-commerce platform consisting of a website and mobile application (“marketplace”) together with supporting IT logistics and payment infrastructure for the sale and purchase of consumer products and services (“products”) in its allocated territory as defined at Appendix 1 (“territory”).
+
+
+
+
+                    1.4.
+                    1.4.1.
+                    1.4.2.
+                    1.4.3.
                   </p>
                   <p className="text-muted-foreground">
                     <strong className="text-foreground">1.2.</strong> These general terms and conditions shall apply to buyers and sellers on the marketplace and shall govern your use of the marketplace and related services.
                   </p>
                   <p className="text-muted-foreground">
-                    <strong className="text-foreground">1.3.</strong> By using our marketplace you accept these general terms and conditions in full. If you disagree with these general terms and conditions or any part of these general terms and conditions, you must not use our marketplace.
+                    <strong className="text-foreground">1.3.</strong> By using our marketplace you accept these general terms and conditions in full. If you disagree with these general terms and conditions or any part of these general terms and conditions you must not use our marketplace.
+
                   </p>
                   <p className="text-muted-foreground">
-                    <strong className="text-foreground">1.4.</strong> If you use our marketplace in the course of a business or other organizational project, then by so doing you:
+                    <strong className="text-foreground">1.4.</strong> If you use our marketplace in the course of a business or other organizational project then by so doing you:
+
                   </p>
                   <ul className="list-none pl-6 space-y-2 text-muted-foreground">
-                    <li><strong className="text-foreground">1.4.1.</strong> Confirm that you have obtained the necessary authority to agree to these general terms and conditions;</li>
-                    <li><strong className="text-foreground">1.4.2.</strong> Bind both yourself and the person, company, or other legal entity that operates that business or organizational project to these general terms and conditions; and</li>
-                    <li><strong className="text-foreground">1.4.3.</strong> Agree that "you" in these general terms and conditions shall reference both the individual user and the relevant person, company, or legal entity unless the context requires otherwise.</li>
+                    <li><strong className="text-foreground">1.4.1.</strong>  Confirm that you have obtained the necessary authority to agree to these general terms and conditions;</li>
+                    <li><strong className="text-foreground">1.4.2.</strong> bind both yourself and the person company or other legal entity that operates that business or organizational project to these general terms and conditions; and</li>
+                    <li><strong className="text-foreground">1.4.3.</strong>  agree that you in these general terms and conditions shall reference both the individual user and the relevant person company or legal entity unless the context requires otherwise.</li>
                   </ul>
                 </div>
               </section>
